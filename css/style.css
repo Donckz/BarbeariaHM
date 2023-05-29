@@ -96,10 +96,10 @@ body {
     margin-top: 20px;
     transition: transform 0.3s;
 }
+
 .sobre{
     display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to top, white);
+    justify-content: center;    
 }
 .sobre .conteudosobre{
     box-shadow: #000000af 3px 2px 15px;
@@ -107,7 +107,7 @@ body {
     border-radius: 20px;
     height: 375px;
     width: 500px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 135px
 }
 .sobre h2{
