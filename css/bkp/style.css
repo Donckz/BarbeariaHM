@@ -173,7 +173,7 @@ input[type="text"], select {
       }
 .form-group label {
         float: left;
-        width: 40%;
+        width: 70%;
       }
 .form-group input, .form-group select {
         float: right;
