@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
-          
+
     </head>
     <body>
         <header class="nave"> <!-- VICTOR VAI FICAR RESPONSAVEL--> 
@@ -58,62 +58,84 @@
         <section class="agendamentos" id="AGENDAMENTOS">
             <!-- JULIA VAI FICAR RESPONSAVEL-->
                 
-            <title>Adicione suas informações </title>
-
-            <style>
-        
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Adicione suas informações</h1>
-    <p>
-        <h4>Conte-nos um pouco sobre você</h4>
-            
-    </p>
-    <form>
-      <div class="form-group">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="phone">Telefone:</label>
-        <input type="text" id="phone" name="phone" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="date">Data:</label>
-        <input type="date" id="date" name="date" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="time">Horário:</label>
-        <select id="time" name="time" required>
-          <option value="">Selecione um horário</option>
-          <option value="09:00">09:00</option>
-          <option value="10:00">10:00</option>
-          <option value="11:00">11:00</option>
-          <option value="13:00">13:00</option>
-          <option value="15:00">15:00</option>
-          <option value="17:00">17:00</option>
-        </select>
-      </div>
-      
-      <div class="form-group">
-        <label for="servico">Serviço:</label>
-        <select id="servico" name="servico" required>
-            <option value="">Selecione um serviço</option>
-            <option value="corte">Corte de cabelo, a partir de R$ 20,00</option>
-            <option value="barba">Barba, a partir de R$ 10,00</option>
-            <option value="corte-barba">Corte e barba, a partir de R$ 40,00</option>
-        </select>
-    </div>
-
-    <button type="submit">Agendar</button>
-</form>
+            <div class="container">
+                <div class="panel-group">
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                         <h3>Agendamento</h3>
+                      </div>
+                      <div class="panel-body">
+                         <table class="table table-condensed">
+                            <thead>
+                               <tr>
+                                  <th>Dados Pessoais</th>
+                                  <th>Dados do agendamento</th>
+                               </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                  <td>
+                                     <form>
+                                        <div class="input-group">
+                                           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                           <input id="nome" type="text" class="form-control" name="nome" placeholder="Informe seu nome">
+                                        </div>
+                                        <div class="input-group">
+                                           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                           <input id="email" type="text" class="form-control" name="email" placeholder="Informe seu E-mail">
+                                        </div>
+                                        <div class="input-group">
+                                           <span class="input-group-addon"><i class="glyphicon    glyphicon-phone"></i></span>
+                                           <input id="fone" type="text" class="form-control" name="fone" placeholder="Informe seu telefone">
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                           <span class="input-group-addon">Text</span>
+                                           <input id="msg" type="text" class="form-control" name="msg" placeholder="Observações">
+                                        </div>
+                                     </form>
+                                  </td>
+                                  <td>
+                                     <form>
+                                          <div class="form-group">
+                                           <label for="servico">Serviço:</label>
+                                           <select id="servico" name="servico" required>
+                                              <option value="">Selecione um serviço</option>
+                                              <option value="corte">Corte de cabelo, a partir de R$ 20,00</option>
+                                              <option value="barba">Barba, a partir de R$ 10,00</option>
+                                              <option value="corte-barba">Corte e barba, a partir de R$ 40,00</option>
+                                           </select>
+                                        </div>
+                                        <div class="form-group">
+                                           <label for="date">Data:</label>
+                                           <input type="date" id="date" name="date" required>
+                                        </div>
+                                        <div class="form-group">
+                                           <label for="time">Horário:</label>
+                                           <select id="time" name="time" required>
+                                              <option value="">Selecione um horário</option>
+                                              <option value="09:00">09:00</option>
+                                              <option value="10:00">10:00</option>
+                                              <option value="11:00">11:00</option>
+                                              <option value="13:00">13:00</option>
+                                              <option value="15:00">15:00</option>
+                                              <option value="17:00">17:00</option>
+                                           </select>
+                                        </div>
+                                       
+                                        <button type="submit" class="btn btn-success">Agendar</button>
+                                     </form>
+                                  </td>
+                               </tr>
+                            </tbody>
+                         </table>
+                      </div>
+                   </div>
+                </div>
+             </div>
+ 
+ 
+        </section>
+    </body>
+</html>
+  
