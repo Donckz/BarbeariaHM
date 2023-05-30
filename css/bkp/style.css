@@ -173,7 +173,7 @@ input[type="text"], select {
       }
 .form-group label {
         float: left;
-        width: 30%;
+        width: 40%;
       }
 .form-group input, .form-group select {
         float: right;
@@ -191,9 +191,5 @@ input[type="submit"] {
       
 input[type="submit"]:hover {
         background-color: #45a049;
-      }
-      button {
-        display: block;
-        margin: 5 auto;
       }
       
