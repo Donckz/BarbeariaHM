@@ -7,8 +7,6 @@
         <title>BarberShopHM</title>
         <link rel="shortcut icon" href="imgs/bigode-icon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css"> <!-- ARTHUR FICOU RESPONSAVEL-->
-        <!--Adicionando Bootstrap para ficar lindão-Julia-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
         <header class="nave"> <!-- VICTOR FICOU RESPONSAVEL--> 
@@ -19,16 +17,16 @@
                     <li><a href="#SERVIÇOS">SERVIÇOS</a></li>
                     <li><a href="#AGENDAMENTOS">AGENDAMENTOS</a></li>
                     <section class="redes">
-                        <li>
+                        <span>
                             <a href="https://www.instagram.com/hm__barbearia/" target="_blank">
                                 <img src="imgs/instagram.png" alt="logo_instagram" class="insta">
                             </a>
-                        </li>
-                        <li>
+                        </span>
+                        <span>
                             <a href="https://api.whatsapp.com/send?phone=5583988690063&text=Ol%C3%A1,%20gostaria%20de%20uma%20ajuda!" target="_blank">
                                 <img src="imgs/whatsapp.png" alt="logo_whatsapp" class="what">
                             </a>
-                        </li>
+                        </span>
                     </section>
                 </ul>
             </nav>
@@ -44,112 +42,96 @@
             <img class="imgsobre" src="imgs/barbersobre.webp" alt="barbersobre">
             <div class="conteudosobre">
                 <h2>SOBRE</h2>
-                <p>A Barbearia <spam style="color: rgb(41, 36, 112)">Homem Moderno</spam> é um estabelecimento de barbearia criado em 2017 na cidade de Pitimbu - PB, que se destaca por oferecer serviços de alta qualidade com um ambiente sofisticado e uma abordagem estilizada, oferecemos cortes de cabelo e serviços de barba. Além disso, disponibilizamos produtos para cuidados masculinos. Nossa barbearia têm ganhado popularidade como destino popular para homens que valorizam o cuidado pessoal e desejam uma experiência única.</p>
+                <p>A Barbearia <spam style="color: #232e2c">Homem Moderno</spam> é um estabelecimento de barbearia criado em 2017 na cidade de Pitimbu - PB, que se destaca por oferecer serviços de alta qualidade com um ambiente sofisticado e uma abordagem estilizada, oferecemos cortes de cabelo e serviços de barba. Além disso, disponibilizamos produtos para cuidados masculinos. Nossa barbearia têm ganhado popularidade como destino popular para homens que valorizam o cuidado pessoal e desejam uma experiência única.</p>
             </div>
         </section>
-        <section class="servicos" id="SERVIÇOS">
+        <section class="servicos" id="SERVIÇOS"> <!-- FLÔR FICOU RESPONSAVEL-->
             <section class="box_tudin">
                 <section class="box_um_servico">
-                    <section class="serv1">
-                        <img src="imgs/cabeloicon.png" alt="">
-                        <h2>Cabelo</h2>
-                        <p>O corte de cabelo é uma forma de expressão pessoal e uma maneira emocionante de mudar a aparência.</p>
-                    </section>
-                    <section class="serv2">
-                        <img src="imgs/barba.png" alt="">
-                        <h2>Barba</h2>
-                        <p>O corte de barba é uma forma de se destacar e expressar sua individualidade.</p>
-                    </section>
+                    <a href="#AGENDAMENTOS" style="color: #000;">
+                        <section class="serv1">
+                            <img src="imgs/cabeloicon.png" alt="">
+                            <h2>Cabelo</h2>
+                            <p>O corte de cabelo é uma forma de expressão pessoal e uma maneira emocionante de mudar a aparência.</p>
+                        </section>
+                    </a>
+                    <a href="#AGENDAMENTOS" style="color: #000;">
+                        <section class="serv2">
+                            <img src="imgs/barba.png" alt="">
+                            <h2>Barba</h2>
+                            <p>O corte de barba é uma forma de se destacar e expressar sua individualidade.</p>
+                        </section>
+                    </a>
                 </section>
                 <section class="box_dois_servico">
-                    <section class="serv4">
-                        <img src="imgs/sombrancelha.png" alt="">
-                        <h2>Sombrancelha</h2>
-                        <p>O corte de sobrancelha é uma prática para moldar e estilizar os pelos das sobrancelhas.<p>
-                    </section>
-                    <section class="serv3">
-                        <img src="imgs/bigode.png" alt="">
-                        <h2>Bigode</h2>
-                        <p>É importante cuidar adequadamente do bigode para mantê-lo limpo e bem aparado.</p>
-                    </section>
+                    <a href="#AGENDAMENTOS" style="color: #000;">
+                        <section class="serv4">
+                            <img src="imgs/sombrancelha.png" alt="">
+                            <h2>Sombrancelha</h2>
+                            <p>O corte de sobrancelha é uma prática para moldar e estilizar os pelos das sobrancelhas.<p>
+                        </section>
+                    </a>
+                    <a href="#AGENDAMENTOS" style="color: #000;">
+                        <section class="serv3">
+                            <img src="imgs/bigode.png" alt="">
+                            <h2>Bigode</h2>
+                            <p>É importante cuidar adequadamente do bigode para mantê-lo limpo e bem aparado.</p>
+                        </section>
+                    </a>
                 </section>
             </section>
-            <img src="imgs/ilustracaoservicos.png" alt="" class="imgserv">
+            <img src="imgs/3610519.jpg" alt="" class="imgserv">
         </section>
-
+        <div style="background-image: linear-gradient(to right, #fff,#f5f5f5, #e4e4e4, #c2c2c2, #9c9c9c)">
+            <p style="color: #6DD37D; line-height: 10px;">.</p>
+        </div>
         <section class="agendamentos" id="AGENDAMENTOS"> <!-- JULIA FICOU RESPONSAVEL-->
-            <div class="container">
-                <div class="panel-group">
-                   <div class="panel panel-default">
-                      <div class="panel-heading">
-                         <h3>Agendamento</h3>
-                      </div>
-                      <div class="panel-body">
-                         <table class="table table-condensed">
-                            <thead>
-                               <tr>
-                                  <th>Dados Pessoais</th>
-                                  <th>Dados do agendamento</th>
-                               </tr>
-                            </thead>
-                            <tbody>
-                               <tr>
-                                  <td>
-                                     <form>
-                                        <div class="input-group">
-                                           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                           <input id="nome" type="text" class="form-control" name="nome" placeholder="Informe seu nome">
-                                        </div>
-                                        <div class="input-group">
-                                           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                           <input id="email" type="text" class="form-control" name="email" placeholder="Informe seu E-mail">
-                                        </div>
-                                        <div class="input-group">
-                                           <span class="input-group-addon"><i class="glyphicon    glyphicon-phone"></i></span>
-                                           <input id="fone" type="text" class="form-control" name="fone" placeholder="Informe seu telefone">
-                                        </div>
-                                        <br>
-                                        <div class="input-group">
-                                           <span class="input-group-addon">Text</span>
-                                           <input id="msg" type="text" class="form-control" name="msg" placeholder="Observações">
-                                        </div>
-                                     </form>
-                                  </td>
-                                  <td>
-                                     <form>
-                                          <div class="form-group">
-                                           <label for="servico">Serviço:</label>
-                                           <select id="servico" name="servico" required>
-                                              <option value="">Selecione um serviço</option>
-                                              <option value="corte">Corte de cabelo</option>
-                                              <option value="barba">Barba</option>
-                                              <option value="corte-barba">Corte e barba</option>
-                                           </select>
-                                        </div>
-                                        <div class="form-group">
-                                           <label for="date">Data:</label>
-                                           <input type="date" id="date" name="date" required>
-                                        </div>
-                                        <div class="form-group">
-                                           <label for="time">Horário disponíveis:</label>
-                                           <select id="time" name="time" required>
-                                              <option value="">Selecione um horário</option>
-                                              <option value="08:00 as 10:00">08:00 ás 10:00</option>
-                                              <option value="11:00 as 14:00">11:00 ás 14:00</option>
-                                              <option value="15:00 as 18:00">15:00 ás 18:00</option>
-                                           </select>
-                                        </div>                                      
-                                        <button type="submit" class="btn btn-success">Agendar</button>
-                                     </form>
-                                  </td>
-                               </tr>
-                            </tbody>
-                         </table>
-                      </div>
-                   </div>
-                </div>
-             </div>
+            <section class="left_agenda">
+                <section class="titulo">
+                    <h2>Adicione suas informações</h2>
+                    <h1>Conte-nos um pouco sobre você</h1>
+                </section>
+                <section class="formu">
+                    <form action="">
+                        <label for="nome">Nome *</label><br>
+                        <input type="text" placeholder="Daniel Brandão"><br>
+                        <label for="e-mail">Email *</label><br>
+                        <input type="email" placeholder="danielbrandao3.0@gmail.com"><br>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="number" placeholder="(99) 99999-9999"><br>
+                        <label for="observacao">Observação</label><br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    </form>
+                </section>
+            </section>
+            <section class="box_escolha">
+                <section class="escolhas">
+                    <h2>Tipos de serviços</h2>
+                    <label for="assunto">Serviços</label><br><br>
+                    <select name="assunto" id="">
+                        <option value="critica">Cabelo</option>
+                        <option value="critica">Barba</option>
+                        <option value="critica">Bigode</option>
+                        <option value="critica">Sombrancelha</option>
+                    </select><br><br>
+                    <label for="">Datas disponiveis</label><br><br>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif; ">28/05</span>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif; ">29/05</span>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">25/05</span>
+                    <hr>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">24/06</span>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">25/06</span>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">28/06</span><br><br>
+                    <label for="">Horarios disponiveis</label><br><br>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">08:30AM - 11:00AM</span> <br><br>
+                    <input type="checkbox"> <span style="font-family: 'Quicksand', sans-serif;">14:00PM - 18:30PM</span><br><br>
+                    <input type="submit" class="submit" value="AGENDAR">
+                </section>  
+            </section>
         </section>
+        <div style="background-image: linear-gradient(to right, #fff,#f5f5f5, #e4e4e4, #c2c2c2, #9c9c9c)">
+            <p style="color: #6DD37D; line-height: 10px;">.</p>
+        </div>
         <section>
          <footer class="pezin">
             <img src="imgs/logo_footi.png" alt="" class="logo_footer">
@@ -159,4 +141,3 @@
         </section>
     </body>
 </html>
-  
